@@ -31,7 +31,7 @@ El proyecto está organizado de la siguiente manera:
 ├── TelecomX_Analisis.ipynb  
 └── README.md                   
 
-Uso y Ejecución
+Uso y Ejecución  
 Clona este repositorio o descarga el archivo .ipynb.   
 Abre el archivo en Jupyter Notebook, VS Code o Google Colab.  
 Ejecuta las celdas en orden secuencial.  
