@@ -1,4 +1,4 @@
-# Análisis de Evasión de Clientes (Churn Analysis) - Telecom X
+# Análisis de Evasión de Clientes - Telecom X
 
 Este proyecto consiste en un análisis exploratorio de datos (EDA) para una empresa de telecomunicaciones ficticia (**Telecom X**). El objetivo principal es identificar patrones de comportamiento y factores determinantes que llevan a los clientes a abandonar la compañía (*Churn*), con el fin de proponer estrategias de retención basadas en datos.
 
@@ -45,8 +45,7 @@ Posibles Problemas y Soluciones
 1. Advertencia de Pyarrow  
 Al importar Pandas, podrías ver un mensaje como:  
 DeprecationWarning: Pyarrow will become a required dependency...  
-Solución: Es solo una advertencia. Puedes ignorarla o instalar la librería para mejorar el rendimiento:  
-```pip install pyarrow```
+Solución: Es solo una advertencia. Puedes ignorarla o instalar la librería para mejorar el rendimiento: ```pip install pyarrow```   
 Reinicia el kernel después de instalar.  
 2. Error de Conexión (Requests)  
 Si al ejecutar la celda de carga de datos obtienes un error de conexión, verifica tu conexión a internet, ya que el dataset se descarga en tiempo real desde GitHub. Asegúrate de que la URL en el código apunte a la versión raw del archivo JSON.  
