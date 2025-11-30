@@ -1,15 +1,15 @@
-# 📊 Análisis de Evasión de Clientes (Churn Analysis) - Telecom X
+# Análisis de Evasión de Clientes (Churn Analysis) - Telecom X
 
 Este proyecto consiste en un análisis exploratorio de datos (EDA) para una empresa de telecomunicaciones ficticia (**Telecom X**). El objetivo principal es identificar patrones de comportamiento y factores determinantes que llevan a los clientes a abandonar la compañía (*Churn*), con el fin de proponer estrategias de retención basadas en datos.
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 
 El análisis se centra en procesar un conjunto de datos en formato JSON crudo, limpiarlo, normalizarlo y realizar visualizaciones estadísticas. Se busca responder preguntas clave como:
 * ¿Qué perfil demográfico tiene mayor tendencia a cancelar el servicio?
 * ¿Cómo influyen el tipo de contrato y el método de pago en la fidelización?
 * ¿Existe una correlación entre el costo mensual y la fuga de clientes?
 
-## 🚀 Instalación y Requisitos
+## Instalación y Requisitos
 
 Para ejecutar este proyecto en tu máquina local, necesitas tener instalado **Python 3.x**.
 
@@ -25,7 +25,7 @@ Puedes instalar todas las dependencias necesarias ejecutando el siguiente comand
 
 ```pip install pandas matplotlib seaborn requests```
 
-📂 Estructura del Proyecto
+Estructura del Proyecto
 El proyecto está organizado de la siguiente manera:
 
 ├── TelecomX_Analisis.ipynb
