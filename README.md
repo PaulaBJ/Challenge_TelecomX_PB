@@ -31,24 +31,24 @@ El proyecto está organizado de la siguiente manera:
 ├── TelecomX_Analisis.ipynb  
 └── README.md                   
 
-⚙️ Uso y Ejecución
-Clona este repositorio o descarga el archivo .ipynb.
-Abre el archivo en Jupyter Notebook, VS Code o Google Colab.
-Ejecuta las celdas en orden secuencial.
-El flujo del código sigue estos pasos:
+Uso y Ejecución
+Clona este repositorio o descarga el archivo .ipynb.   
+Abre el archivo en Jupyter Notebook, VS Code o Google Colab.  
+Ejecuta las celdas en orden secuencial.  
+El flujo del código sigue estos pasos:  
 - Ingesta: Descarga automática del JSON desde el repositorio remoto usando requests.
 - Normalización: Aplanado de datos anidados (json_normalize).
 - Limpieza: Tratamiento de valores nulos, conversión de tipos (object a float) y renombrado de columnas.
 - Análisis: Generación de gráficos Pastel, Barras, Boxplots y tablas cruzadas.
 
-🛠️ Posibles Problemas y Soluciones
-1. Advertencia de Pyarrow
-Al importar Pandas, podrías ver un mensaje como:
-DeprecationWarning: Pyarrow will become a required dependency...
-Solución: Es solo una advertencia. Puedes ignorarla o instalar la librería para mejorar el rendimiento:
+Posibles Problemas y Soluciones  
+1. Advertencia de Pyarrow  
+Al importar Pandas, podrías ver un mensaje como:  
+DeprecationWarning: Pyarrow will become a required dependency...  
+Solución: Es solo una advertencia. Puedes ignorarla o instalar la librería para mejorar el rendimiento:  
 ```pip install pyarrow```
-Reinicia el kernel después de instalar.
-2. Error de Conexión (Requests)
-Si al ejecutar la celda de carga de datos obtienes un error de conexión, verifica tu conexión a internet, ya que el dataset se descarga en tiempo real desde GitHub. Asegúrate de que la URL en el código apunte a la versión raw del archivo JSON.
+Reinicia el kernel después de instalar.  
+2. Error de Conexión (Requests)  
+Si al ejecutar la celda de carga de datos obtienes un error de conexión, verifica tu conexión a internet, ya que el dataset se descarga en tiempo real desde GitHub. Asegúrate de que la URL en el código apunte a la versión raw del archivo JSON.  
 
 Desarrollado como parte del Challenge Data Science - LATAM.
