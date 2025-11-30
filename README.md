@@ -26,10 +26,10 @@ Puedes instalar todas las dependencias necesarias ejecutando el siguiente comand
 ```pip install pandas matplotlib seaborn requests```
 
 Estructura del Proyecto
-El proyecto está organizado de la siguiente manera:
+El proyecto está organizado de la siguiente manera:  
 
-├── TelecomX_Analisis.ipynb
-└── README.md                 
+├── TelecomX_Analisis.ipynb  
+└── README.md                   
 
 ⚙️ Uso y Ejecución
 Clona este repositorio o descarga el archivo .ipynb.
